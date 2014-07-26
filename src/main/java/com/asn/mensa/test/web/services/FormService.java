@@ -3,10 +3,10 @@
  * and open the template in the editor.
  */
 
-package com.mensa.mensa.test.web.services;
+package com.asn.mensa.test.web.services;
 
-import com.mensa.mensa.test.entities.Doctor;
-import com.mensa.mensa.test.entities.Skp;
+import com.asn.mensa.test.entities.Doctor;
+import com.asn.mensa.test.entities.Skp;
 import java.util.List;
 
 /**

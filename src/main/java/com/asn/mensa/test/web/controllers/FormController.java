@@ -2,12 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mensa.mensa.test.web.controllers;
+package com.asn.mensa.test.web.controllers;
 
-import com.mensa.mensa.test.entities.Doctor;
-import com.mensa.mensa.test.entities.Skp;
-import com.mensa.mensa.test.web.domain.DoctorSkpForm;
-import com.mensa.mensa.test.web.services.FormService;
+import com.asn.mensa.test.entities.Doctor;
+import com.asn.mensa.test.entities.Skp;
+import com.asn.mensa.test.web.domain.DoctorSkpForm;
+import com.asn.mensa.test.web.services.FormService;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;

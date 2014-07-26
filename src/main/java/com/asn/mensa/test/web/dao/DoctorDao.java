@@ -3,9 +3,9 @@
  * and open the template in the editor.
  */
 
-package com.mensa.mensa.test.web.dao;
+package com.asn.mensa.test.web.dao;
 
-import com.mensa.mensa.test.entities.Doctor;
+import com.asn.mensa.test.entities.Doctor;
 
 /**
  *
