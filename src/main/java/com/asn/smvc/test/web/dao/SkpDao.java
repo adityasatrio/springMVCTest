@@ -3,9 +3,9 @@
  * and open the template in the editor.
  */
 
-package com.asn.mensa.test.web.dao;
+package com.asn.smvc.test.web.dao;
 
-import com.asn.mensa.test.entities.Skp;
+import com.asn.smvc.test.entities.Skp;
 import java.util.List;
 
 /**

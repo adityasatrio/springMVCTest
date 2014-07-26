@@ -2,15 +2,14 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.asn.mensa.test.web.dao;
+package com.asn.smvc.test.web.dao;
 
-import com.asn.mensa.test.entities.Doctor;
+import com.asn.smvc.test.entities.Skp;
 import java.util.List;
 import org.hibernate.Criteria;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.criterion.MatchMode;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -19,9 +18,8 @@ import org.springframework.stereotype.Repository;
  *
  * @author AdityaSatrio
  */
-//public class DoctorDaoImpl extends BaseAbstractDao<Doctor, String> implements DoctorDao {
 @Repository
-public class DoctorDaoImpl implements DoctorDao {
+public class SkpDaoImpl implements SkpDao {
 
     @Autowired
     private SessionFactory sessionFactory;
@@ -39,14 +37,14 @@ public class DoctorDaoImpl implements DoctorDao {
     }
 
     @Override
-    public void saveOrUpdate(Doctor doctor) {
-        getCurrentSession().saveOrUpdate(doctor);
+    public void saveOrUpdate(Skp skp) {
+        getCurrentSession().saveOrUpdate(skp);
     }
 
     @Override
-    public Doctor findByDoctorName(String doctorName) {
-        Criteria criteria = getCurrentSession().createCriteria(Doctor.class);
-        criteria.add(Restrictions.like("nama", doctorName, MatchMode.START));
-        return (Doctor) criteria.uniqueResult();
+    public List<Skp> findAll() {
+        Criteria criteria = getCurrentSession().createCriteria(Skp.class);
+        criteria.add(Restrictions.isNotNull("namaKegiatan"));
+        return criteria.list();
     }
 }

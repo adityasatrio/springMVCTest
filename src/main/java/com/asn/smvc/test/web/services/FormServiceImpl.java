@@ -2,12 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.asn.mensa.test.web.services;
+package com.asn.smvc.test.web.services;
 
-import com.asn.mensa.test.entities.Doctor;
-import com.asn.mensa.test.entities.Skp;
-import com.asn.mensa.test.web.dao.DoctorDao;
-import com.asn.mensa.test.web.dao.SkpDao;
+import com.asn.smvc.test.entities.Doctor;
+import com.asn.smvc.test.entities.Skp;
+import com.asn.smvc.test.web.dao.DoctorDao;
+import com.asn.smvc.test.web.dao.SkpDao;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;

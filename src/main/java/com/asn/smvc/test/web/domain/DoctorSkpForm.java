@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.asn.mensa.test.web.domain;
+package com.asn.smvc.test.web.domain;
 
 import org.hibernate.validator.constraints.NotEmpty;
 

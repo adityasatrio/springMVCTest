@@ -1,4 +1,4 @@
-package com.asn.mensa.test.entities;
+package com.asn.smvc.test.entities;
 // Generated 14 Jun 14 7:23:22 by Hibernate Tools 3.2.1.GA
 
 import java.util.HashSet;
